@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Unity.WebAPI</id>
+    <version>0.9</version>
+    <authors>Paul Hiles</authors>
+    <owners>DevTrends</owners>
+    <licenseUrl>http://unitywebapi.codeplex.com/license</licenseUrl>
+    <projectUrl>http://unitywebapi.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Unity.Mvc3 is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET's WebAPI. This project includes a bespoke DependencyResolver that creates a child container per HTTP request and disposes of container resolved IDisposable instances at the end of the request.</description>
+    <tags>unity asp.net webapi</tags>
+    <dependencies>
+      <dependency id="Unity" version="2.1.505.0" />
+    </dependencies>
+  </metadata>
+</package>
