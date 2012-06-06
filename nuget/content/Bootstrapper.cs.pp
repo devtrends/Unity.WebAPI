@@ -10,7 +10,7 @@ namespace $rootnamespace$
         {
             var container = BuildUnityContainer();
 
-            GlobalConfiguration.Configuration.ServiceResolver.SetResolver(new UnityDependencyResolver(container));
+            GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
         }
 
         private static IUnityContainer BuildUnityContainer()
