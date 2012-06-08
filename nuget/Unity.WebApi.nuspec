@@ -8,7 +8,7 @@
     <licenseUrl>http://unitywebapi.codeplex.com/license</licenseUrl>
     <projectUrl>http://unitywebapi.codeplex.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Unity.WebAPI is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET's WebAPI. This project includes a bespoke DependencyResolver that creates a child container per HTTP request and disposes of container resolved IDisposable instances at the end of the request.</description>
+    <description>Unity.WebAPI is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET's WebAPI (RC).</description>
     <tags>unity asp.net webapi</tags>
     <dependencies>
       <dependency id="Unity" version="2.1.505.0" />

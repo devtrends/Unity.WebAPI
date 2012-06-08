@@ -14,6 +14,7 @@ namespace Unity.WebApi
         public IDependencyScope BeginScope()
         {
             var childContainer = Container.CreateChildContainer();
+
             return new UnityDependencyScope(childContainer);
         }
     }    
