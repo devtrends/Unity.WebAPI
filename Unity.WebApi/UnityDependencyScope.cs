@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Microsoft.Practices.Unity;
+using System;
 using System.Collections.Generic;
 using System.Web.Http.Controllers;
 using System.Web.Http.Dependencies;
-using Microsoft.Practices.Unity;
 
 namespace Unity.WebApi
 {

@@ -2,16 +2,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Unity.WebAPI</id>
-    <version>0.10</version>
+    <version>5.0</version>
     <authors>Paul Hiles</authors>
-    <owners>DevTrends</owners>
-    <licenseUrl>http://unitywebapi.codeplex.com/license</licenseUrl>
-    <projectUrl>http://unitywebapi.codeplex.com/</projectUrl>
+    <owners>FeedbackHound</owners>
+    <projectUrl>https://github.com/feedbackhound/Unity.WebAPI</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Unity.WebAPI is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET's WebAPI (RC).</description>
-    <tags>unity asp.net webapi</tags>
+    <description>Unity.WebAPI is a library that allows the simple Integration of Microsoft's Unity IoC container with ASP.NET Web API.</description>
+    <tags>unity asp.net webapi web api</tags>
     <dependencies>
-      <dependency id="Unity" version="2.1.505.0" />
+      <dependency id="Unity" version="3.0.1304.1" />
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="5.0.0" />
     </dependencies>
   </metadata>
 </package>

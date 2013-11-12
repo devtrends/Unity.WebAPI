@@ -1,6 +1,5 @@
-﻿using System.Web.Http.Dependencies;
-
-using Microsoft.Practices.Unity;
+﻿using Microsoft.Practices.Unity;
+using System.Web.Http.Dependencies;
 
 namespace Unity.WebApi
 {
