@@ -12,7 +12,7 @@ and the Web API framework will then use the Unity.WebAPI DependencyResolver to r
 
 e.g.
  
-    public class MvcApplication : System.Web.HttpApplication
+    public class WebApiApplication : System.Web.HttpApplication
     {
       protected void Application_Start()
       {
