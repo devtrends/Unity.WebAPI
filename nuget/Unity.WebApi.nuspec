@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Unity.WebAPI</id>
-    <version>5.0</version>
+    <version>5.1</version>
     <authors>Paul Hiles</authors>
     <owners>FeedbackHound</owners>
     <projectUrl>https://github.com/feedbackhound/Unity.WebAPI</projectUrl>
