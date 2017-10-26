@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Unity.WebAPI</id>
-    <version>5.2.3</version>
+    <version>5.3.0</version>
     <authors>Paul Hiles</authors>
     <owners>DevTrends</owners>
     <projectUrl>https://github.com/devtrends/Unity.WebAPI</projectUrl>
@@ -11,7 +11,7 @@
     <description>Unity.WebAPI allows the simple Integration of the Unity IoC container with ASP.NET Web API.</description>
     <tags>unity asp.net webapi web api ioc di</tags>
     <dependencies>
-      <dependency id="Unity" version="4.0.1" />
+      <dependency id="Unity" version="5.0.2" />
       <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.3" />
     </dependencies>
   </metadata>

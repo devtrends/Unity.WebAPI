@@ -1,5 +1,4 @@
-﻿using Microsoft.Practices.Unity;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Web.Http.Controllers;
 using System.Web.Http.Dependencies;
@@ -29,7 +28,7 @@ namespace Unity.WebApi
             catch
             {
                 return null;
-            }            
+            }
         }
 
         public IEnumerable<object> GetServices(Type serviceType)

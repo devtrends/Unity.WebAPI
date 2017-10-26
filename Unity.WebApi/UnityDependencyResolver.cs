@@ -1,5 +1,4 @@
-﻿using Microsoft.Practices.Unity;
-using System.Web.Http.Dependencies;
+﻿using System.Web.Http.Dependencies;
 
 namespace Unity.WebApi
 {
@@ -9,12 +8,12 @@ namespace Unity.WebApi
             : base(container)
         {
         }
-       
+
         public IDependencyScope BeginScope()
         {
             var childContainer = Container.CreateChildContainer();
 
             return new UnityDependencyScope(childContainer);
         }
-    }    
+    }
 }
