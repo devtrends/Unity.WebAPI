@@ -61,8 +61,8 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Unity.Abstractions, Version=2.0.2.67, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.Abstractions.2.0.2\lib\net45\Unity.Abstractions.dll</HintPath>
+    <Reference Include="Unity.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Abstractions.2.0.0\lib\net45\Unity.Abstractions.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +71,7 @@
     <Compile Include="UnityDependencyScope.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
