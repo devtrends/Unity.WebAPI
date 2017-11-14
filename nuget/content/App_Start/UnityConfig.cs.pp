@@ -1,5 +1,4 @@
-﻿using Microsoft.Practices.Unity;
-using System.Web.Http;
+﻿using System.Web.Http;
 using Unity;
 using Unity.WebApi;
 

@@ -11,7 +11,7 @@
     <description>Unity.WebAPI allows the simple Integration of the Unity IoC container with ASP.NET Web API.</description>
     <tags>unity asp.net webapi web api ioc di</tags>
     <dependencies>
-      <dependency id="Unity" version="5.0.2" />
+      <dependency id="Unity" version="5.2.0" />
       <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.3" />
     </dependencies>
   </metadata>
